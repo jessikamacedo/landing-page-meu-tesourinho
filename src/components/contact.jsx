@@ -101,23 +101,23 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Endereço
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                São Paulo
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-phone'></i> Telefone
-                </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                </span>
+                +55 11 3333-0000
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                </span>
+                <a href='mailto:lovelacecode@meutesourinho.com'>lovelacecode@meutesourinho.com</a>
               </p>
             </div>
           </div>
@@ -126,17 +126,17 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <a href='https://www.facebook.com/'>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href='https://twitter.com/twitter'>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    <a href='https://www.youtube.com/'>
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>

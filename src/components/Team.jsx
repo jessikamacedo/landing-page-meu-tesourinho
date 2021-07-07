@@ -10,20 +10,51 @@ export const Team = (props) => {
           </p>
         </div>
         <div id='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
-                  <div className='thumbnail'>
-                    {' '}
-                    <img src={d.img} alt='...' className='team-img' />
-                    <div className='caption'>
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : 'loading'}
+          <div className='col-md-3 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src='img/team/01.jpg' alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>Lígia Bozzi</h4>
+                <p>Director</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src='img/team/02.jpg' alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>Victoria Cavalcante</h4>
+                <p>Senior UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src='img/team/03.jpg' alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>Fabiana Salinas</h4>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src='img/team/04.jpg' alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>Letícia Santos</h4>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src='img/team/01.jpg' alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>Lígia Bozzi</h4>
+                <p>Director</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
